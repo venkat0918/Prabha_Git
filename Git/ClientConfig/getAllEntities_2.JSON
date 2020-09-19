@@ -1,0 +1,748 @@
+{
+	"basicInfo": {
+		"id": 2,
+		"isLoginDisabled": false,
+		"isMfaEnabled": false,
+		"brokerSelection": "DisableFeeManagement",
+		"numberOfChildOrganizations": 0,
+		"numberOfUsers": 58,
+		"visibleOnTpoWcSite": false,
+		"hierarchyPath": "Third Party Originators\\Correspondent Delegated Company",
+		"childOrganizations": [
+			{
+				"entityId": "125",
+				"entityName": "dont_use_saurav",
+				"entityType": "Branch"
+			},
+			{
+				"entityId": "126",
+				"entityName": "saurav_dontusee",
+				"entityType": "CompanyExtension"
+			}
+		],
+		"organizationName": "Correspondent Delegated Company",
+		"useParentInfoForCompanyDetails": false,
+		"organizationType": "Company",
+		"channelTypes": [
+			"Correspondent"
+		],
+		"correspondentSelection": [
+			"Delegated"
+		],
+		"timeZone": "PacificTime",
+		"noAfterHourWires": true,
+		"canAcceptFirstPayments": true,
+		"tpoId": "4623464130",
+		"orgId": "700125",
+		"companyLegalName": "Correspondent Delegated Company",
+		"address": {
+			"city": "Miami",
+			"state": "FL",
+			"street1": "2 W. Elm",
+			"zip": "33161"
+		},
+		"billingAddress": {},
+		"phoneNumber": "777-777-7777",
+		"lastLoanSubmittedDate": "0001-01-01T00:00:00Z",
+		"rateLockInfo": {
+			"useParentInfoForRateLock": false,
+			"rateSheetEmail": "",
+			"rateSheetFax": "",
+			"lockInfoEmail": "",
+			"lockInfoFax": ""
+		},
+		"productAndPricing": {
+			"useParentInfoForEpps": false,
+			"priceGroups": {},
+			"eppsUserName": "",
+			"eppsCompModel": "BorrowerOnly"
+		},
+		"approvalStatus": {
+			"useParentInfoApprovalStatus": false,
+			"currentStatus": "Active",
+			"addToWatchlist": false,
+			"currentStatusDate": "2019-12-31",
+			"approvedDate": "2020-03-03",
+			"companyRating": "Restrict Registration"
+		},
+		"businessInformation": {
+			"useParentInfoForBusinessInfo": false,
+			"isIncorporated": false,
+			"stateOfIncorporation": "AR",
+			"dateOfIncorporation": "2020-03-03",
+			"yearsInBusiness": "0",
+			"typeOfEntity": "Individual",
+			"taxId": "",
+			"useSsnFormat": false,
+			"lei": "123456789",
+			"nmlsId": "123456789",
+			"financialsPeriod": "",
+			"companyNetWorth": 0.0,
+			"eoCompany": "",
+			"eoPolicyNumber": "",
+			"mersOriginatingOrgId": "123456789"
+		},
+		"primarySalesRepAe": {
+			"userId": "temp_ae",
+			"name": "Executive, Account",
+			"persona": [
+				"Account Executive"
+			],
+			"phone": "123-456-7890",
+			"email": "noemail@email.com",
+			"assignedDate": "2020-02-12"
+		}
+	},
+	"dba": {
+		"useParentInfo": false,
+		"dbaDetails": [
+			{
+				"externalOrgId": 2,
+				"dbaId": 21,
+				"name": "Correspondent Delegated Company, Inc",
+				"isDefault": true,
+				"sortIndex": 0
+			},
+			{
+				"externalOrgId": 3,
+				"dbaId": 21,
+				"name": "Correspondent Delegated Company, Inc",
+				"isDefault": true,
+				"sortIndex": 1
+			}
+		]
+	},
+	"license": {
+		"useParentInfo": false,
+		"lenderType": "NationalBank",
+		"homeState": "FL",
+		"dontApplyIntRateExportation": false,
+		"loanPolicyForUnlicesedStates": "NoRestrictions",
+		"warningMessage": "Our records indicate there are licensing issues that exist for this loan. Please contact your Account Executive for assistance.",
+		"statutoryElectionInMaryland": "NoStatutoryElection",
+		"statutoryElectionInKansas": "NoStatutoryElection",
+		"atrSmallCreditor": "None",
+		"atrExemptCreditor": "None",
+		"stateLicenseTypes": [
+			{
+				"selected": false,
+				"stateAbbrevation": "AK"
+			},
+			{
+				"selected": false,
+				"stateAbbrevation": "AK"
+			}
+		]
+	},
+	"loanCriteria": {
+		"useParentInfo": false,
+		"fhaId": "45873",
+		"fhaSponsorId": "12234579",
+		"fhaStatus": "Approved",
+		"fhaCompareRatio": 0,
+		"fhaApprovedDate": "2000-12-06",
+		"fhaExpirationDate": "2019-12-19",
+		"fhaDirectEndorsement": "Principal/Agent",
+		"vaId": "282648",
+		"vaSponsorId": "8941633",
+		"vaStatus": "Approved",
+		"vaApprovedDate": "2017-12-12",
+		"vaExpirationDate": "2022-12-12",
+		"fnmaApproved": true,
+		"fannieMaeId": "1498646",
+		"fhmlcApproved": true,
+		"freddieMacId": "6541651",
+		"ausMethod": "DU and LP",
+		"broker": {
+			"loanTypes": [
+				"Conventional",
+				"Fha",
+				"Va",
+				"Usda",
+				"Heloc",
+				"Other",
+				"FirstLien",
+				"SecondLien"
+			],
+			"loanPurposes": [
+				"Purchase",
+				"NoCashOutRefi",
+				"CashOutRefi",
+				"Construction",
+				"ConstructionPerm",
+				"Other"
+			],
+			"loanPolicyForUnlicesedStates": "NoRestrictions",
+			"warningMessage": "Your organization is not approved to submit loans of this type. Please contact your Account Executive for assistance."
+		},
+		"correspondent": {
+			"underwriting": "Delegated",
+			"correspondentDelegated": {
+				"loanTypes": [
+					"Conventional",
+					"Fha",
+					"Va",
+					"Usda",
+					"FirstLien"
+				],
+				"loanPurposes": [
+					"Purchase",
+					"NoCashOutRefi",
+					"CashOutRefi"
+				],
+				"loanPolicyForUnlicesedStates": "NoRestrictions",
+				"warningMessage": "Your organization is not approved to submit loans of this type. Please contact your Account Executive for assistance."
+			},
+			"correspondentNonDelegated": {
+				"loanTypes": [
+					"Conventional",
+					"Fha",
+					"Va",
+					"Usda",
+					"FirstLien"
+				],
+				"loanPurposes": [
+					"Purchase",
+					"NoCashOutRefi",
+					"CashOutRefi"
+				],
+				"loanPolicyForUnlicesedStates": "DontAllowLoanCreation",
+				"warningMessage": "Your organization is not approved to submit loans of this type. Please contact your Account Executive for assistance."
+			},
+			"advancedCode": ""
+		}
+	},
+	"tpoContacts": [],
+	"salesRepAe": [
+		{
+			"salesRepId": 82,
+			"userId": "accountexec",
+			"isPrimarySalesRep": false,
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": false,
+			"isNonDelegatedChannelEnabled": false,
+			"persona": [
+				"Account Executive"
+			],
+			"email": "nomail@email.com",
+			"orgAssignment": "Correspondent Delegated Company"
+		},
+		{
+			"salesRepId": 122,
+			"userId": "dfowler",
+			"isPrimarySalesRep": false,
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": false,
+			"isNonDelegatedChannelEnabled": false,
+			"persona": [
+				"Super Administrator",
+				"LO - Do Not Use",
+				"Jr Admin/Test"
+			],
+			"email": "dave.fowler@elliemae.com",
+			"orgAssignment": "Correspondent Delegated Company"
+		},
+		{
+			"salesRepId": 4,
+			"userId": "sleclair",
+			"isPrimarySalesRep": false,
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": true,
+			"isNonDelegatedChannelEnabled": false,
+			"persona": [
+				"Super Administrator",
+				"LO - Do Not Use",
+				"Jr Admin/Test"
+			],
+			"email": "sarah.leclair@elliemae.com",
+			"orgAssignment": "Correspondent Delegated Company"
+		},
+		{
+			"salesRepId": 55,
+			"userId": "temp_ae",
+			"isPrimarySalesRep": true,
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": false,
+			"isNonDelegatedChannelEnabled": false,
+			"persona": [
+				"Account Executive"
+			],
+			"phone": "123-456-7890",
+			"email": "noemail@email.com",
+			"orgAssignment": "Correspondent Delegated Company"
+		},
+		{
+			"salesRepId": 178,
+			"userId": "temp_lockdesk",
+			"isPrimarySalesRep": false,
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": false,
+			"isNonDelegatedChannelEnabled": false,
+			"persona": [
+				"Lock Desk"
+			],
+			"email": "noemail@email.com",
+			"orgAssignment": "Correspondent Delegated Company"
+		}
+	],
+	"lenderContacts": [
+		{
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": false,
+			"isNonDelegatedChannelEnabled": false,
+			"isPrimarySalesRep": true,
+			"isHidden": false,
+			"phone": "123-456-7890",
+			"email": "noemail@email.com",
+			"userId": "temp_ae",
+			"name": "Account Executive",
+			"title": "Account Exective"
+		},
+		{
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": false,
+			"isNonDelegatedChannelEnabled": false,
+			"isPrimarySalesRep": false,
+			"isHidden": true,
+			"email": "nomail@email.com",
+			"userId": "accountexec",
+			"name": "Account  Executive",
+			"title": "Account Executive"
+		},
+		{
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": false,
+			"isNonDelegatedChannelEnabled": false,
+			"isPrimarySalesRep": false,
+			"isHidden": false,
+			"email": "dave.fowler@elliemae.com",
+			"userId": "dfowler",
+			"name": "Dave Fowler",
+			"title": "Sr. Implementation Consultant"
+		},
+		{
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": false,
+			"isNonDelegatedChannelEnabled": false,
+			"isPrimarySalesRep": false,
+			"isHidden": true,
+			"email": "noemail@email.com",
+			"userId": "temp_lockdesk",
+			"name": "Lock Desk",
+			"title": "Lock Desk"
+		},
+		{
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": true,
+			"isNonDelegatedChannelEnabled": false,
+			"isPrimarySalesRep": false,
+			"isHidden": true,
+			"email": "sarah.leclair@elliemae.com",
+			"userId": "sleclair",
+			"name": "Sarah LeClair",
+			"title": "Principal Consultant"
+		},
+		{
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": true,
+			"isNonDelegatedChannelEnabled": false,
+			"isPrimarySalesRep": false,
+			"isHidden": true,
+			"email": "nomail@email.com",
+			"userId": "accountexec",
+			"name": "Account  Executive",
+			"title": "Account Executive"
+		},
+		{
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": true,
+			"isNonDelegatedChannelEnabled": false,
+			"isPrimarySalesRep": false,
+			"isHidden": true,
+			"phone": "123-456-7890",
+			"email": "noemail@email.com",
+			"userId": "temp_ae",
+			"name": "Account Executive",
+			"title": "Account Exective"
+		},
+		{
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": true,
+			"isNonDelegatedChannelEnabled": true,
+			"isPrimarySalesRep": false,
+			"isHidden": true,
+			"email": "shassim@elliemae.com",
+			"userId": "clientadmin1",
+			"name": "Client Admin",
+			"title": "Client Admin"
+		},
+		{
+			"isWholesaleChannelEnabled": true,
+			"isDelegatedChannelEnabled": true,
+			"isNonDelegatedChannelEnabled": true,
+			"isPrimarySalesRep": false,
+			"isHidden": true,
+			"email": "jradtke@matchboxllc.com",
+			"userId": "jradtke",
+			"name": "Jill Radtke",
+			"title": "Implementation Consultant"
+		},
+		{
+			"isWholesaleChannelEnabled": false,
+			"isDelegatedChannelEnabled": true,
+			"isNonDelegatedChannelEnabled": true,
+			"isPrimarySalesRep": false,
+			"isHidden": true,
+			"email": "noemail@email.com",
+			"userId": "temp_lockdesk",
+			"name": "Lock Desk",
+			"title": "Lock Desk"
+		}
+	],
+	"warehouse": {
+		"useParentInfo": false,
+		"warehouseBankDetails": [
+			{
+				"id": 121,
+				"warehouseBankId": 814,
+				"bankName": "XCEED FINANCIAL CREDIT UNION",
+				"address1": "123 test circle",
+				"address2": "suite 100",
+				"city": "EL SEGUNDO",
+				"state": "CA",
+				"zip": "90245",
+				"abaNumber": "123456789",
+				"dateAdded": "2020-01-30",
+				"statusDate": "2020-02-05",
+				"isApproved": true,
+				"accountNumber": "12555878789351",
+				"accountName": "General Operations",
+				"creditAccountNumber": "",
+				"creditAccountName": "",
+				"description": "",
+				"useDefaultContact": true,
+				"contactName": "kanan",
+				"contactEmail": "Kanan@test.com",
+				"contactPhone": "111-111-1111",
+				"contactFax": "111-111-1111",
+				"notes": ""
+			}
+		]
+	},
+	"fees": {
+		"lateFeeSettings": {
+			"lateFeeSettingId": 1,
+			"gracePeriodDays": 0,
+			"gracePeriodUses": "WeekDays",
+			"gracePeriodStarts": "On",
+			"gracePeriodLaterOf": [
+				"purchaseSuspenseDate"
+			],
+			"dayCleared": "PurchaseApprovalDate",
+			"canStartOnWeekend": false,
+			"includeDayAsLateDay": false,
+			"feeHandledAs": "Fee",
+			"lateFeePercent": 0.0,
+			"lateFeeDollars": 0.0,
+			"calculateAs": "Flat",
+			"maxLateDays": 0,
+			"dayClearedOtherDate": "",
+			"gracePeriodLaterOfOtherDate": ""
+		},
+		"tpoFees": []
+	},
+	"loComp": {
+		"useParentInfo": false,
+		"loCompHistory": []
+	},
+	"commitments": {
+		"bestEffort": true,
+		"limited": false,
+		"unlimited": true,
+		"maxCommitmentAuthority": 0.0,
+		"bestEffortOutstandingCommitments": "$23,227,301",
+		"bestEffortDailyVolumeLimit": 0.0,
+		"mandatory": true,
+		"maxCommitmentAmount": 10000000000000.0,
+		"mandatoryOutStandingCommitments": "$542,044,911,815 (5.42%)",
+		"mandatoryAvailableAmount": "$9,457,955,088,185 (94.58%)",
+		"commitmentsLoanPolicy": "DontAllowLockorSubmit",
+		"commitmentsTradePolicy": "NoRestrictions",
+		"bestEffortsDailyLimitPolicy": "NoLimit",
+		"dailyLimitWarningMessage": "The loan amount exceeds the available amount of the daily volume limit.",
+		"commitmentWarningMessage": "The loan amount exceeds the available amount of the commitment authority for this delivery type.  ",
+		"bestEffortToleranceControlOption": "NoPolicy",
+		"mandatoryToleranceControlOption": "ConditionalTolerance",
+		"bestEffortTolerancePercent": 0.0,
+		"mandatoryTolerancePercent": 2.0,
+		"mandatoryToleranceAmount": 100000.0,
+		"deliveryTypes": [
+			{
+				"deliveryType": "Aot",
+				"outStandingCommitments": "$500,125,650,000",
+				"percentageOfMax": "5%"
+			},
+			{
+				"deliveryType": "Forward",
+				"outStandingCommitments": "$9,900,000",
+				"percentageOfMax": "0%"
+			},
+			{
+				"deliveryType": "IndividualMandatory",
+				"outStandingCommitments": "$6,050,002",
+				"percentageOfMax": "0%"
+			},
+			{
+				"deliveryType": "DirectTrade",
+				"outStandingCommitments": "$5,494,722",
+				"percentageOfMax": "0%"
+			},
+			{
+				"deliveryType": "Bulk",
+				"outStandingCommitments": "$41,897,817,091",
+				"percentageOfMax": "0%"
+			}
+		]
+	},
+	"tradeManagement": {
+		"enableTradeManagement": true,
+		"useCompanyTradeManagementSettings": true,
+		"viewCorrespondentTrade": true,
+		"viewCorrespondentMasterCommitment": false,
+		"loanEligibilityToCorrespondentTrade": true,
+		"eppsLoanProgramEligibilityPricing": false,
+		"loanAssignmentToCorrespondentTrade": true,
+		"loanDeletionFromCorrespondentTrade": false,
+		"requestPairOff": false,
+		"receiveCommitmentConfirmation": false
+	},
+	"onrp": {
+		"onrpId": -1,
+		"brokerSettings": {
+			"enableOnrpForTpo": false,
+			"useChannelDefaults": false,
+			"coverageSetting": "SpecifyTimes",
+			"weekendHolidayCoverage": false,
+			"onrpWeekdayStartTime": "23:00 ET",
+			"onrpWeekDayEndTime": " ET",
+			"enableSaturdayHours": false,
+			"enableSundayHours": false,
+			"noMaximumLimit": false,
+			"dollarLimit": 0,
+			"tolerancePercent": 0
+		},
+		"correspondentSettings": {
+			"enableOnrpForTpo": true,
+			"useChannelDefaults": false,
+			"coverageSetting": "SpecifyTimes",
+			"weekendHolidayCoverage": false,
+			"onrpWeekdayStartTime": "23:00 ET",
+			"onrpWeekDayEndTime": "03:59 ET",
+			"enableSaturdayHours": true,
+			"onrpSaturdayStartTime": "10:01 ET",
+			"onrpSaturdayEndTime": "09:59 ET",
+			"enableSundayHours": true,
+			"onrpSundayStartTime": "10:01 ET",
+			"onrpSundayEndTime": "06:59 ET",
+			"noMaximumLimit": false,
+			"dollarLimit": 125000,
+			"tolerancePercent": 0
+		}
+	},
+	"notes": [
+		{
+			"noteId": 6,
+			"addedDate": "0001-01-01T00:00:00Z",
+			"addedBy": "clientadmin",
+			"details": "Test Note"
+		},
+		{
+			"noteId": 7,
+			"addedDate": "0001-01-01T00:00:00Z",
+			"addedBy": "clientadmin",
+			"details": "Additional details"
+		}
+	],
+	"tpocSetup": {
+		"isTestAccount": false,
+		"tpoSiteDetails": [
+			{
+				"siteUrl": "3506396352.beta.tpo.ellielabs.com",
+				"channelTypes": [
+					"Correspondent"
+				],
+				"siteId": "3506396352"
+			}
+		]
+	},
+	"tpoDocs": {
+		"tpoDocDetails": [],
+		"archivedDocs": []
+	},
+	"attachments": [
+		{
+			"guid": "6696b41f-60a2-4125-ac5f-ae8da427d455",
+			"externalOrgId": 2,
+			"dateAdded": "2020-01-21T16:11:00Z",
+			"addedBy": "clientadmin",
+			"attachmentName": "Integrations2",
+			"description": "",
+			"categoryName": "NoCategory",
+			"daysToExpire": 0,
+			"realFileName": "\\\\pnmac.com\\profiles\\Users\\mmisra.V2\\Documents\\PennyMac\\Integrations2.PNG"
+		}
+	],
+	"customFields": {
+		"useParentInfo": false,
+		"fields": [
+			{
+				"fieldName": "Date Onboarded",
+				"fieldValue": "02/18/20"
+			},
+			{
+				"fieldName": "Automated Indexing",
+				"fieldValue": "Y"
+			},
+			{
+				"fieldName": "Origination Method",
+				"fieldValue": "Correspondent"
+			},
+			{
+				"fieldName": "Jumbo",
+				"fieldValue": "Non-Delegated"
+			},
+			{
+				"fieldName": "Texas A(6)",
+				"fieldValue": "Y"
+			},
+			{
+				"fieldName": "203K",
+				"fieldValue": "Admin Services"
+			},
+			{
+				"fieldName": "HomeStyle",
+				"fieldValue": "Investor Services"
+			},
+			{
+				"fieldName": "USDA OTC",
+				"fieldValue": "N"
+			},
+			{
+				"fieldName": "VA Renovation",
+				"fieldValue": "N"
+			},
+			{
+				"fieldName": "DDF Tier",
+				"fieldValue": "Tier 2"
+			},
+			{
+				"fieldName": "Conventional Tiers",
+				"fieldValue": "Conv Tier 2"
+			},
+			{
+				"fieldName": "FHA Tiers",
+				"fieldValue": "FHA Tier 3"
+			},
+			{
+				"fieldName": "VA Tiers",
+				"fieldValue": "VA Tier 3"
+			},
+			{
+				"fieldName": "USDA Tiers",
+				"fieldValue": "USDA Tier 3"
+			},
+			{
+				"fieldName": "Jumbo Tiers",
+				"fieldValue": "Jumbo Tier 3"
+			},
+			{
+				"fieldName": "Other Tiers",
+				"fieldValue": "Other Tier 2"
+			},
+			{
+				"fieldName": "Security Release Requirements",
+				"fieldValue": "Security Release"
+			},
+			{
+				"fieldName": "Rate Sheet Email Distribution",
+				"fieldValue": ""
+			},
+			{
+				"fieldName": "Allowed Lock Extensions Count",
+				"fieldValue": "15"
+			},
+			{
+				"fieldName": "Max Lock Extension Days",
+				"fieldValue": "20"
+			},
+			{
+				"fieldName": "Max Aggregate Lock Extension Days",
+				"fieldValue": "20"
+			},
+			{
+				"fieldName": "Max Days After Lock Expiration",
+				"fieldValue": "30"
+			},
+			{
+				"fieldName": "Max Days After Lock Expiration For Conv",
+				"fieldValue": "20"
+			},
+			{
+				"fieldName": "Max Days After Lock Expiration For FHA",
+				"fieldValue": "30"
+			},
+			{
+				"fieldName": "Max Days After Lock Expiration For Jumbo",
+				"fieldValue": "30"
+			},
+			{
+				"fieldName": "Max Days After Lock Expiration For USDA",
+				"fieldValue": "30"
+			},
+			{
+				"fieldName": "Max Days After Lock Expiration For VA",
+				"fieldValue": "30"
+			},
+			{
+				"fieldName": "Lock Days - 15",
+				"fieldValue": "Y"
+			},
+			{
+				"fieldName": "Lock Days - 30",
+				"fieldValue": "Y"
+			},
+			{
+				"fieldName": "Lock Days - 45",
+				"fieldValue": "Y"
+			},
+			{
+				"fieldName": "Lock Days - 60",
+				"fieldValue": "Y"
+			},
+			{
+				"fieldName": "Lock Days - 75",
+				"fieldValue": "Y"
+			},
+			{
+				"fieldName": "Relock Days - 15",
+				"fieldValue": "Y"
+			},
+			{
+				"fieldName": "Relock Days - 30",
+				"fieldValue": "Y"
+			},
+			{
+				"fieldName": "Primary Status",
+				"fieldValue": "Approved"
+			},
+			{
+				"fieldName": "Secondary Status",
+				"fieldValue": "Exceptions - Risk Approved"
+			},
+			{
+				"fieldName": "Comments",
+				"fieldValue": "Test Kanan"
+			}
+		]
+	}
+}

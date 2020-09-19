@@ -1,0 +1,511 @@
+{
+    "basicInfo": {
+        "id": 4,
+        "isLoginDisabled": false,
+        "isMfaEnabled": true,
+        "brokerSelection": "DisableFeeManagement",
+        "numberOfChildOrganizations": 0,
+        "numberOfUsers": 4,
+        "visibleOnTpoWcSite": false,
+        "hierarchyPath": "Third Party Originators\\Test Correspondent Company 2",
+        "childOrganizations": [],
+        "organizationName": "Test Correspondent Company 2",
+        "useParentInfoForCompanyDetails": false,
+        "organizationType": "Company",
+        "channelTypes": [
+            "Correspondent"
+        ],
+        "correspondentSelection": [
+            "NonDelegated"
+        ],
+        "noAfterHourWires": false,
+        "canAcceptFirstPayments": false,
+        "tpoId": "3711506228",
+        "orgId": "1234",
+        "companyLegalName": "Test Correspondent Company 2",
+        "address": {
+            "city": "Chicago",
+            "state": "IL",
+            "street1": "101 Main",
+            "zip": "60601"
+        },
+        "billingAddress": {},
+        "phoneNumber": "312-555-5555",
+        "lastLoanSubmittedDate": "0001-01-01T00:00:00Z",
+        "rateLockInfo": {
+            "useParentInfoForRateLock": false,
+            "rateSheetEmail": "",
+            "rateSheetFax": "",
+            "lockInfoEmail": "",
+            "lockInfoFax": ""
+        },
+        "productAndPricing": {
+            "useParentInfoForEpps": false,
+            "priceGroups": {},
+            "eppsUserName": "",
+            "eppsCompModel": "BorrowerOnly"
+        },
+        "approvalStatus": {
+            "useParentInfoApprovalStatus": false,
+            "currentStatus": "Active",
+            "addToWatchlist": false,
+            "currentStatusDate": "2019-11-08",
+            "approvedDate": "2019-11-08",
+            "applicationDate": "2019-11-04"
+        },
+        "businessInformation": {
+            "useParentInfoForBusinessInfo": false,
+            "isIncorporated": false,
+            "stateOfIncorporation": "IL",
+            "dateOfIncorporation": "2019-09-09",
+            "yearsInBusiness": "0",
+            "typeOfEntity": "Corporation",
+            "taxId": "63-2222222",
+            "useSsnFormat": false,
+            "lei": "",
+            "nmlsId": "",
+            "financialsPeriod": "",
+            "financialsLastUpdate": "2019-10-08",
+            "companyNetWorth": 0.0,
+            "eoCompany": "",
+            "eoPolicyNumber": "",
+            "mersOriginatingOrgId": "5115151551",
+            "isDuSponsored": true,
+            "isLpaSponsored": false,
+            "canFundInOwnName": true,
+            "canCloseInOwnName": true
+        },
+        "primarySalesRepAe": {
+            "userId": "sleclair",
+            "name": "LeClair, Sarah",
+            "persona": [
+                "Super Administrator",
+                "LO - Do Not Use",
+                "Jr Admin/Test"
+            ],
+            "phone": "",
+            "email": "sarah.leclair@elliemae.com",
+            "assignedDate": "2020-01-24"
+        }
+    },
+    "dba": {
+        "useParentInfo": false,
+        "dbaDetails": [
+            {
+                "externalOrgId": 4,
+                "dbaId": 1,
+                "name": "xyz",
+                "isDefault": false,
+                "sortIndex": 0
+            }
+        ]
+    },
+    "license": {
+        "useParentInfo": false,
+        "lenderType": "None",
+        "dontApplyIntRateExportation": false,
+        "loanPolicyForUnlicesedStates": "NoRestrictions",
+        "warningMessage": "Our records indicate there are licensing issues that exist for this loan. Please contact your Account Executive for assistance.",
+        "statutoryElectionInMaryland": "NoStatutoryElection",
+        "statutoryElectionInKansas": "NoStatutoryElection",
+        "atrSmallCreditor": "None",
+        "atrExemptCreditor": "None",
+        "stateLicenseTypes": []
+    },
+    "loanCriteria": {
+        "useParentInfo": false,
+        "fhaCompareRatio": 0,
+        "fnmaApproved": false,
+        "fhmlcApproved": false,
+        "broker": {
+            "loanTypes": [
+                "Conventional",
+                "Usda",
+                "FirstLien"
+            ],
+            "loanPurposes": [
+                "Purchase",
+                "NoCashOutRefi",
+                "CashOutRefi"
+            ],
+            "loanPolicyForUnlicesedStates": "NoRestrictions",
+            "warningMessage": "Your organization is not approved to submit loans of this type. Please contact your Account Executive for assistance."
+        },
+        "correspondent": {
+            "underwriting": "NonDelegated",
+            "correspondentDelegated": {
+                "loanTypes": [
+                    "Conventional",
+                    "Usda",
+                    "FirstLien"
+                ],
+                "loanPurposes": [
+                    "Purchase",
+                    "NoCashOutRefi",
+                    "CashOutRefi"
+                ],
+                "loanPolicyForUnlicesedStates": "DontAllowLoanCreation",
+                "warningMessage": "Your organization is not approved to submit loans of this type. Please contact your Account Executive for assistance."
+            },
+            "correspondentNonDelegated": {
+                "loanTypes": [
+                    "Conventional",
+                    "Usda",
+                    "FirstLien"
+                ],
+                "loanPurposes": [
+                    "Purchase",
+                    "NoCashOutRefi",
+                    "CashOutRefi"
+                ],
+                "loanPolicyForUnlicesedStates": "DontAllowLoanCreation",
+                "warningMessage": "Your organization is not approved to submit loans of this type. Please contact your Account Executive for assistance."
+            },
+            "advancedCode": ""
+        }
+    },
+    "tpoContacts": [],
+    "salesRepAe": [
+        {
+            "salesRepId": 7,
+            "userId": "accountexec",
+            "isPrimarySalesRep": false,
+            "isWholesaleChannelEnabled": false,
+            "isDelegatedChannelEnabled": true,
+            "isNonDelegatedChannelEnabled": true,
+            "persona": [
+                "Account Executive"
+            ],
+            "email": "nomail@email.com",
+            "orgAssignment": "Test Correspondent Company 2"
+        },
+        {
+            "salesRepId": 52,
+            "userId": "dfowler",
+            "isPrimarySalesRep": false,
+            "isWholesaleChannelEnabled": false,
+            "isDelegatedChannelEnabled": false,
+            "isNonDelegatedChannelEnabled": false,
+            "persona": [
+                "Super Administrator",
+                "LO - Do Not Use",
+                "Jr Admin/Test"
+            ],
+            "email": "dave.fowler@elliemae.com",
+            "orgAssignment": "Test Correspondent Company 2"
+        },
+        {
+            "salesRepId": 53,
+            "userId": "sleclair",
+            "isPrimarySalesRep": true,
+            "isWholesaleChannelEnabled": false,
+            "isDelegatedChannelEnabled": false,
+            "isNonDelegatedChannelEnabled": false,
+            "persona": [
+                "Super Administrator",
+                "LO - Do Not Use",
+                "Jr Admin/Test"
+            ],
+            "email": "sarah.leclair@elliemae.com",
+            "orgAssignment": "Test Correspondent Company 2"
+        }
+    ],
+    "lenderContacts": [
+        {
+            "isWholesaleChannelEnabled": false,
+            "isDelegatedChannelEnabled": false,
+            "isNonDelegatedChannelEnabled": false,
+            "isPrimarySalesRep": true,
+            "isHidden": false,
+            "email": "sarah.leclair@elliemae.com",
+            "userId": "sleclair",
+            "name": "Sarah LeClair",
+            "title": "Principal Consultant"
+        },
+        {
+            "isWholesaleChannelEnabled": false,
+            "isDelegatedChannelEnabled": true,
+            "isNonDelegatedChannelEnabled": true,
+            "isPrimarySalesRep": false,
+            "isHidden": false,
+            "email": "nomail@email.com",
+            "userId": "accountexec",
+            "name": "Account  Executive",
+            "title": "Account Executive"
+        },
+        {
+            "isWholesaleChannelEnabled": false,
+            "isDelegatedChannelEnabled": false,
+            "isNonDelegatedChannelEnabled": false,
+            "isPrimarySalesRep": false,
+            "isHidden": false,
+            "email": "dave.fowler@elliemae.com",
+            "userId": "dfowler",
+            "name": "Dave Fowler",
+            "title": "Sr. Implementation Consultant"
+        },
+        {
+            "isWholesaleChannelEnabled": false,
+            "isDelegatedChannelEnabled": false,
+            "isNonDelegatedChannelEnabled": false,
+            "isPrimarySalesRep": false,
+            "isHidden": false,
+            "email": "nomail@email.com",
+            "userId": "accountexec",
+            "name": "Account  Executive",
+            "title": "Account Executive"
+        }
+    ],
+    "warehouse": {
+        "useParentInfo": false,
+        "warehouseBankDetails": []
+    },
+    "fees": {
+        "lateFeeSettings": {
+            "lateFeeSettingId": 1,
+            "gracePeriodDays": 0,
+            "gracePeriodUses": "WeekDays",
+            "gracePeriodStarts": "On",
+            "gracePeriodLaterOf": [
+                "purchaseSuspenseDate"
+            ],
+            "dayCleared": "PurchaseApprovalDate",
+            "canStartOnWeekend": false,
+            "includeDayAsLateDay": false,
+            "feeHandledAs": "Fee",
+            "lateFeePercent": 0.0,
+            "lateFeeDollars": 0.0,
+            "calculateAs": "Flat",
+            "maxLateDays": 0,
+            "dayClearedOtherDate": "",
+            "gracePeriodLaterOfOtherDate": ""
+        },
+        "tpoFees": []
+    },
+    "loComp": {
+        "useParentInfo": false,
+        "loCompHistory": []
+    },
+    "commitments": {
+        "bestEffort": true,
+        "limited": false,
+        "unlimited": true,
+        "maxCommitmentAuthority": 0.0000,
+        "bestEffortOutstandingCommitments": "$392,400,000",
+        "bestEffortDailyVolumeLimit": 1000000.0000,
+        "mandatory": false,
+        "maxCommitmentAmount": 0.0000,
+        "commitmentsLoanPolicy": "DontAllowLockorSubmit",
+        "commitmentsTradePolicy": "NoRestrictions",
+        "bestEffortsDailyLimitPolicy": "NoLimit",
+        "dailyLimitWarningMessage": "The loan amount exceeds the available amount of the daily volume limit.",
+        "commitmentWarningMessage": "The loan amount exceeds the available amount of commitment authority for this delivery type.",
+        "bestEffortToleranceControlOption": "NoPolicy",
+        "mandatoryToleranceControlOption": "NoPolicy",
+        "bestEffortTolerancePercent": 0.00000,
+        "mandatoryTolerancePercent": 0.00000,
+        "deliveryTypes": []
+    },
+    "tradeManagement": {
+        "enableTradeManagement": true,
+        "useCompanyTradeManagementSettings": true,
+        "viewCorrespondentTrade": true,
+        "viewCorrespondentMasterCommitment": false,
+        "loanEligibilityToCorrespondentTrade": true,
+        "eppsLoanProgramEligibilityPricing": false,
+        "loanAssignmentToCorrespondentTrade": true,
+        "loanDeletionFromCorrespondentTrade": false,
+        "requestPairOff": false,
+        "receiveCommitmentConfirmation": false
+    },
+    "onrp": {
+        "onrpId": 2,
+        "brokerSettings": {
+            "enableOnrpForTpo": false,
+            "useChannelDefaults": true,
+            "coverageSetting": "SpecifyTimes",
+            "noMaximumLimit": false,
+            "dollarLimit": 0,
+            "tolerancePercent": 0
+        },
+        "correspondentSettings": {
+            "enableOnrpForTpo": false,
+            "useChannelDefaults": true,
+            "coverageSetting": "SpecifyTimes",
+            "noMaximumLimit": false,
+            "dollarLimit": 1000000,
+            "tolerancePercent": 0
+        }
+    },
+    "notes": [],
+    "tpocSetup": {
+        "isTestAccount": false,
+        "tpoSiteDetails": [
+            {
+                "siteUrl": "3506396352.beta.tpo.ellielabs.com",
+                "channelTypes": [
+                    "Correspondent"
+                ],
+                "siteId": "3506396352"
+            }
+        ]
+    },
+    "tpoDocs": {
+        "tpoDocDetails": [],
+        "archivedDocs": []
+    },
+    "attachments": [],
+    "customFields": {
+        "useParentInfo": false,
+        "fields": [
+            {
+                "fieldName": "Date Onboarded",
+                "fieldValue": "04/14/2020"
+            },
+            {
+                "fieldName": "Automated Indexing",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Origination Method",
+                "fieldValue": "TPO"
+            },
+            {
+                "fieldName": "Jumbo",
+                "fieldValue": null
+            },
+            {
+                "fieldName": "Texas A(6)",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "203K",
+                "fieldValue": "Admin Services Plus"
+            },
+            {
+                "fieldName": "HomeStyle",
+                "fieldValue": "Admin Services"
+            },
+            {
+                "fieldName": "USDA OTC",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "VA Renovation",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "DDF Tier",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Conventional Tiers",
+                "fieldValue": "Conv Tier 1"
+            },
+            {
+                "fieldName": "FHA Tiers",
+                "fieldValue": "FHA Tier 1"
+            },
+            {
+                "fieldName": "VA Tiers",
+                "fieldValue": "VA Tier 1"
+            },
+            {
+                "fieldName": "USDA Tiers",
+                "fieldValue": "USDA Tier 1"
+            },
+            {
+                "fieldName": "Jumbo Tiers",
+                "fieldValue": "Jumbo Tier 1"
+            },
+            {
+                "fieldName": "Other Tiers",
+                "fieldValue": "Other Tier 1"
+            },
+            {
+                "fieldName": "Security Release Requirements",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Rate Sheet Email Distribution",
+                "fieldValue": "Hi"
+            },
+            {
+                "fieldName": "Allowed Lock Extensions Count",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Max Lock Extension Days",
+                "fieldValue": null
+            },
+            {
+                "fieldName": "Max Aggregate Lock Extension Days",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Max Days After Lock Expiration",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Max Days After Lock Expiration For Conv",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Max Days After Lock Expiration For FHA",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Max Days After Lock Expiration For Jumbo",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Max Days After Lock Expiration For USDA",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Max Days After Lock Expiration For VA",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Lock Days - 15",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Lock Days - 30",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Lock Days - 45",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Lock Days - 60",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Lock Days - 75",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Relock Days - 15",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Relock Days - 30",
+                "fieldValue": ""
+            },
+            {
+                "fieldName": "Primary Status",
+                "fieldValue": "Terminate"
+            },
+            {
+                "fieldName": "Secondary Status",
+                "fieldValue": "No Exceptions"
+            },
+            {
+                "fieldName": "Comments",
+                "fieldValue": ""
+            }
+        ]
+    }
+}
